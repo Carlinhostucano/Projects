@@ -29,7 +29,6 @@ def addnum(num):
         case _:
             display['text'] += num
             conta['text'] += num
-    print(conta['text'])
 
 def addsimb(simb):
     match simb:
