@@ -116,7 +116,6 @@ def addsimb(simb):
                 conta['text'] += '**'
                 potencia['bg'] = 'white'
                 potencia['fg'] = 'black'
-    print(conta['text'])
 def clear():
     conta['text'] = '0'
     display['text'] = '0'
@@ -181,7 +180,6 @@ def go():
     if val == 0:
         if conta['text'].count('(') == conta['text'].count(')'):
             try:
-                print(conta['text'])
                 resul = str(eval(conta['text'])).replace('.', ',')
                 conta['text'] = resul
                 display['text'] = resul
